@@ -25,7 +25,7 @@ const PortfolioHome = () => (
 );
 
 const App = () => (
-  <Router>
+  <Router basename="/sahilkhan-portfolio">
     <Routes>
       <Route path="/" element={<PortfolioHome />} />
       <Route path="/gameworld" element={<GameWorld />} />
