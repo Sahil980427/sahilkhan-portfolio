@@ -114,7 +114,7 @@ const Contact = () => {
               />
               <p>sahilkhan934018@gmail.com</p>
             </motion.div>
-            
+
             <motion.div className="contact-detail" variants={itemVariants}>
               <motion.img
                 src={location_icon}

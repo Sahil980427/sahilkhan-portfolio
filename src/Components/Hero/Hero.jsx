@@ -4,6 +4,7 @@ import { motion, useAnimation, useScroll, useTransform } from "framer-motion";
 import "./Hero.css";
 import Typed from "typed.js";
 import profile_img from "../../assets/profile_img.png";
+import sahilresume from "../../assets/sahil_resume.pdf";
 
 const Hero = () => {
   const el = useRef(null);
@@ -100,7 +101,7 @@ const Hero = () => {
             transition: { duration: 0.3 },
           }}
         >
-          <a href="/resume.pdf" download className="anchor-link">
+          <a href={sahilresume} download className="anchor-link">
             My resume
           </a>
         </motion.div>
